@@ -37,9 +37,9 @@ export class welcomeToInt{
     }
 
 
-    clickBasicAuth(){
+    clickDropdownList(){
 
-        cy.contains('Basic Auth').click()
+        cy.contains('Dropdown').click()
     }
 
 }
